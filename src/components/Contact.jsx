@@ -39,7 +39,7 @@ const Contact = () => {
           <label className="flex justify-start border-1 p-7 bg-gray-200 mb-4 h-32 rounded-md pl-5">
             <img className="w-4 h-4" src={pencil} alt="pencil-alt" />
             <textarea
-              className="bg-transparent h-32 pl-5"
+              className="bg-transparent h-32 pl-5 resize-none"
               cols="30"
               rows="10"
               placeholder="Your Message"
@@ -92,12 +92,6 @@ const Contact = () => {
             voluptatem, optio facere inventore perspiciatis dolores, quis,
             magnam provident distinctio dignissimos modi vero!
           </p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
         </div>
       </div>
     </div>
