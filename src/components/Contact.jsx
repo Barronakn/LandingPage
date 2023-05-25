@@ -39,7 +39,7 @@ const Contact = () => {
           <label className="flex justify-start border-1 p-7 bg-gray-200 mb-4 h-32 rounded-md pl-5">
             <img className="w-4 h-4" src={pencil} alt="pencil-alt" />
             <textarea
-              className="bg-transparent h-32 pl-5 resize-none"
+              className="bg-transparent w-96 h-20 ml-5 pl-5 resize-none"
               cols="30"
               rows="10"
               placeholder="Your Message"
