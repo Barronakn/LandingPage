@@ -1,0 +1,79 @@
+.contact h1 {
+  color: $primary;
+}
+
+.contact .border-1 {
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.contact .btn {
+  background-color: $primary;
+  color: white;
+  transition: all 1s;
+}
+
+.contact .btn:hover {
+  background-color: $secondary;
+  transform: translateY(-7px);
+}
+
+.contact .bg-linear {
+  background: linear-gradient(100deg, $primary, $secondary);
+}
+
+.contact form .bg-pink-200 {
+  width: 400px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.contact .btn-subscribe {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+@media screen and (max-width: 1215px) {
+  .contact .gap-7 {
+    flex-direction: column;
+  }
+
+  // .contact .gap-5 {
+  //   width: 100%;
+  // }
+
+  .contact .gap-5 label {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .contact .gap-5 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .contact .gap-5 label:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact h1 {
+    font-size: 30px;
+  }
+
+  .contact .bg-linear p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact form .bg-pink-200 {
+    width: 150px;
+  }
+}

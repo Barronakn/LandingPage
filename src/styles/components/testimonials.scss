@@ -1,0 +1,44 @@
+.testimonials h1 {
+  color: $primary;
+}
+
+.testimonials .testimonial .avis {
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.testimonials .testimonial .avis:hover {
+  transform: translateY(-5px);
+}
+
+.swiper-button-prev {
+  position: relative;
+  top: 22px;
+  color: white;
+  background-color: $primary;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.swiper-button-next {
+  position: relative;
+  top: -5px;
+  left: 100px;
+  color: white;
+  background-color: $primary;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .testimonials h1 {
+    font-size: 25px;
+  }
+}

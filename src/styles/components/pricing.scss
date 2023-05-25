@@ -1,0 +1,72 @@
+.pricing h1 {
+  color: $primary;
+}
+
+.pricing article {
+  background-color: $secondary;
+  transition: all 1s;
+}
+
+.pricing article:hover {
+  transform: translateY(-7px);
+}
+
+.pricing .article_special,
+.pricing .sales {
+  background-color: $primary;
+}
+
+.pricing .sales {
+  transition: all 1s;
+}
+
+.pricing .sales:hover {
+  background-color: $secondary;
+  transform: translateY(-10px);
+}
+
+.pricing .buy {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pricing .buy:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 1046px) {
+  .pricing article {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing .articles {
+    flex-direction: column;
+  }
+
+  .pricing article {
+    width: 400px;
+  }
+
+  .pricing article h2 {
+    font-size: 25px;
+  }
+
+  .pricing article span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .pricing article {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .pricing article {
+    width: 250px;
+  }
+}
